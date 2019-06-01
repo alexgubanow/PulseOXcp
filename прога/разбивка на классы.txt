@@ -1,0 +1,127 @@
+Class_DPV=0.4:0.05:1.4
+m2=1;
+m3=1;
+m4=1;
+m5=1;
+m6=1;
+m7=1;
+m8=1;
+m9=1;
+m10=1;
+m11=1;
+m12=1;
+m13=1;
+m14=1;
+m15=1;
+m16=1;
+m17=1;
+m18=1;
+m19=1;
+m20=1;
+for i=1:length(DPV)-1
+    if DPV(i)>=Class_DPV(1)&&DPV(i)<=Class_DPV(2)
+        DPV2(m2)=DPV(i);
+        m2=m2+1;
+    end
+    if DPV(i)>=Class_DPV(2)&&DPV(i)<=Class_DPV(3)
+        DPV3(m3)=DPV(i);
+        m3=m3+1;
+    end
+    if DPV(i)>=Class_DPV(3)&&DPV(i)<=Class_DPV(4)
+        DPV4(m4)=DPV(i);
+        m4=m4+1;
+    end
+    if DPV(i)>=Class_DPV(4)&&DPV(i)<=Class_DPV(5)
+        DPV5(m5)=DPV(i);
+        m5=m5+1;
+    end
+    if DPV(i)>=Class_DPV(5)&&DPV(i)<=Class_DPV(6)
+        DPV6(m6)=DPV(i);
+        m6=m6+1;
+    end
+    if DPV(i)>=Class_DPV(6)&&DPV(i)<=Class_DPV(7)
+        DPV7(m7)=DPV(i);
+        m7=m7+1;
+    end
+    if DPV(i)>=Class_DPV(7)&&DPV(i)<=Class_DPV(8)
+        DPV8(m8)=DPV(i);
+        m8=m8+1;
+    end
+    if DPV(i)>=Class_DPV(8)&&DPV(i)<=Class_DPV(9)
+        DPV9(m9)=DPV(i);
+        m9=m9+1;
+    end
+    if DPV(i)>=Class_DPV(9)&&DPV(i)<=Class_DPV(10)
+        DPV10(m10)=DPV(i);
+        m10=m10+1;
+    end
+    if DPV(i)>=Class_DPV(10)&&DPV(i)<=Class_DPV(11)
+        DPV11(m11)=DPV(i);
+        m11=m11+1;
+    end
+    if DPV(i)>=Class_DPV(11)&&DPV(i)<=Class_DPV(12)
+        DPV12(m12)=DPV(i);
+        m12=m12+1;
+    end
+    if DPV(i)>=Class_DPV(12)&&DPV(i)<=Class_DPV(13)
+        DPV13(m13)=DPV(i);
+        m13=m13+1;
+    end
+    if DPV(i)>=Class_DPV(13)&&DPV(i)<=Class_DPV(14)
+        DPV14(m14)=DPV(i);
+        m14=m14+1;
+    end
+    if DPV(i)>=Class_DPV(14)&&DPV(i)<=Class_DPV(15)
+        DPV15(m15)=DPV(i);
+        m15=m15+1;
+    end
+    if DPV(i)>=Class_DPV(15)&&DPV(i)<=Class_DPV(16)
+        DPV16(m)=DPV(i);
+        m16=m16+1;
+    end
+    if DPV(i)>=Class_DPV(16)&&DPV(i)<=Class_DPV(17)
+        DPV17(m)=DPV(i);
+        m17=m17+1;
+    end
+    if DPV(i)>=Class_DPV(17)&&DPV(i)<=Class_DPV(18)
+        DPV18(m18)=DPV(i);
+        m18=m18+1;
+    end
+    if DPV(i)>=Class_DPV(18)&&DPV(i)<=Class_DPV(19)
+        DPV19(m19)=DPV(i);
+        m19=m19+1;
+    end
+    if DPV(i)>=Class_DPV(19)&&DPV(i)<=Class_DPV(20)
+        DPV20(m20)=DPV(i);
+        m20=m20+1;
+    end
+end
+% length_DPV2=length(DPV2)
+% length_DPV3=length(DPV3)
+% length_DPV4=length(DPV4)
+% length_DPV5=length(DPV5)
+% length_DPV6=length(DPV6)
+% length_DPV7=length(DPV7)
+% length_DPV8=length(DPV8)
+% length_DPV9=length(DPV9)
+% length_DPV10=length(DPV10)
+% length_DPV11=length(DPV11)
+length_DPV12=length(DPV12)
+length_DPV13=length(DPV13)
+length_DPV14=length(DPV14)
+length_DPV15=length(DPV15)
+% length_DPV16=length(DPV16)
+% length_DPV17=length(DPV17)
+% length_DPV18=length(DPV18)
+% length_DPV19=length(DPV19)
+% length_DPV20=length(DPV20)
+DPV12
+DPV13
+DPV14
+DPV15
+figure(3);
+hold on
+bar(Class_DPV(12),length_DPV12);
+bar(Class_DPV(13),length_DPV13);
+bar(Class_DPV(14),length_DPV14);
+bar(Class_DPV(15),length_DPV15);
